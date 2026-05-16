@@ -28,7 +28,7 @@ do
   fi
 
   Test_Button_B
-  if ["$?" -eq "10" ]; then
+  if [ "$?" -eq "10" ]; then
     echo "Exiting without restarting Global Hotkeys"
       sleep 1
       exit 0
