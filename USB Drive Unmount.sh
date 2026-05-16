@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo unmount /mnt/usbdrive
+sudo umount /mnt/usbdrive
 status=$?
 if test $status -eq 0
 then
