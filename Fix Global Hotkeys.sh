@@ -8,7 +8,7 @@ while true
 do
    Test_Button_A
    if [ "$?" -eq "10" ]; then
-     echo "Stopping Global otkey service..."
+     echo "Stopping Global hotkey service..."
      sudo systemctl stop oga_events
      sudo systemctl disable oga_events
      sleep 1
