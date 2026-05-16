@@ -13,7 +13,7 @@ status=$?
 
 if test $status -eq 0
 then
- printf "\n\n\e[32m$filesystem USB drive is mounted to /usb/drive...\n"
+ printf "\n\n\e[32m$filesystem USB drive is mounted to /mnt/usbdrive...\n"
  printf "\033[0m"
  sleep 3
 else
