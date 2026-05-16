@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 sudo cp -v /usr/local/bin/perfnorm.asc /usr/local/perfnorm
 sudo cp -v /usr/local/bin/perfmax.asc /usr/local/bin/perfmax
 sudo chmod 777 /usr/local/bin/perfnorm
