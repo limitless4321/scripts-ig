@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 if [ ! -d "/mnt/usbdrive/" ]; then
     sudo mkdir /mnt/usbdrive
 fi
