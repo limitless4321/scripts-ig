@@ -33,7 +33,7 @@ echo "The purpose of this tool to test the device"
 echo "controls"
 sleep 2
 echo ""
-echo "Press $(hotkey) and Start buttons at anytime to"
+echo "Press ${hotkey} and Start buttons at anytime to"
 echo "exit this program."
 echo ""
 
