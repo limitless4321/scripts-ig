@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 # dir for this file /opt/system/Change LED to Red.sh
 # Ensure we can write to the LED gpio77
 sudo chmod 777 /sys/class/gpio/export
