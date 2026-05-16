@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 sudo unmount /mnt/usbdrive
 status=$?
 if test $status -eq 0
